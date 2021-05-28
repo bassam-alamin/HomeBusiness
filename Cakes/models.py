@@ -20,5 +20,6 @@ class Cake(models.Model):
     cake_name = models.CharField(max_length=50)
     cake_image = models.FileField()
 
+
     def __str__(self):
         return self.cake_name
